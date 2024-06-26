@@ -6,20 +6,27 @@ This project aims to remove toxic comments from a social media platform using ma
 
 ## Project Structure
 Data Preprocessing: Convert text data into vectors using TextVectorization.
+
 Pipeline: Utilize a data pipeline with the MCSHBAP method: Map, Cache, Shuffle, Batch, and Prefetch.
+
 Model Architecture: Build a Sequential model using embedding layers, LSTM, and dense layers.
+
 Evaluation: Measure the performance of the model using precision and recall metrics.
-Data Preprocessing
-We use TextVectorization to create vectors from the training data. The maximum number of features is set to 100,000.
+
+  
 
 
 ## Pipeline
 The data pipeline leverages the MCSHBAP method:
 
 Map: Apply transformations to the dataset.
+
 Cache: Cache the data to improve performance by avoiding the recomputation of data.
+
 Shuffle: Shuffle the dataset to ensure that the model does not learn any order dependencies.
+
 Batch: Batch the data to allow the model to process multiple samples simultaneously.
+
 Prefetch: Prefetch data to prevent bottlenecks by loading data while the model is training.
 
 
@@ -27,9 +34,13 @@ Prefetch: Prefetch data to prevent bottlenecks by loading data while the model i
 The model is built using the Sequential API with the following layers:
 
 Embedding Layer: Converts input data into dense vectors of fixed size.
+
 Bidirectional LSTM Layer: Captures information from both past and future states in the sequence.
+
 Dense Layers: Three dense layers with ReLU activation for deep learning.
+
 Output Layer: Uses sigmoid activation for multi-label classification.
+
 
 ## Evaluation Metrics
 The model's performance is evaluated using precision and recall:
