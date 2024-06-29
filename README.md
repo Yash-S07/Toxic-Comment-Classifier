@@ -45,11 +45,12 @@ Output Layer: Uses sigmoid activation for multi-label classification.
 ## Evaluation Metrics
 The model's performance is evaluated using precision and recall:
 
-Precision: 0.8753308057785034
-Recall: 0.8039427399635315
+Precision: 0.8753
+Recall: 0.8039
+
 These metrics indicate how well the model can identify toxic comments while minimizing false positives and false negatives.
 
-Conclusion
+## Conclusion:
 This project demonstrates an effective approach to identifying and removing toxic comments from a social media platform using a deep learning model. By leveraging the MCSHBAP method for pipelining and a robust neural network architecture, we achieve high precision and recall in classifying toxic comments.
 
 References
