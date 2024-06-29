@@ -52,7 +52,8 @@ These metrics indicate how well the model can identify toxic comments while mini
 
 ## Conclusion:
 This project demonstrates an effective approach to identifying and removing toxic comments from a social media platform using a deep learning model. By leveraging the MCSHBAP method for pipelining and a robust neural network architecture, we achieve high precision and recall in classifying toxic comments.
+Enhances social media moderation by identifying and mitigating toxic comments, fostering a safer online environment.
 
-References
+##References:
 TensorFlow documentation
 Keras API documentation
